@@ -15,8 +15,8 @@ FastAPI + LangServe scaffold to power a flight reservation agent.
 
 ```bash
 # 1) Clone the repo and enter the folder
-git clone
-cd flight-ai-backend-starter
+git clone git@github.com:ahmadalshawakri/Flights-Agent-AI.git
+cd Flights-Agent-AI
 
 # 2) Create env and install
 python -m venv .venv && source .venv/bin/activate
