@@ -1,0 +1,88 @@
+# -------------------
+# OS / Editors
+# -------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# -------------------
+# Python / Build
+# -------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.build/
+build/
+dist/
+wheels/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# -------------------
+# Virtual envs
+# -------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -------------------
+# Tests / Coverage
+# -------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# -------------------
+# Type checkers / Linters
+# -------------------
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+.cache/
+
+# -------------------
+# Logs & PIDs
+# -------------------
+logs/
+*.log
+*.pid
+uvicorn.log
+
+# -------------------
+# Env & Secrets
+# -------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+*.secret
+*.secrets
+
+# -------------------
+# Databases / Local data
+# -------------------
+*.db
+*.sqlite
+*.sqlite3
+flightai.db
+postgres-data/
+redis-data/
+docker-data/
+data/
+
+# -------------------
+# Docker
+# -------------------
+docker-compose.override.yml
+.env.docker
